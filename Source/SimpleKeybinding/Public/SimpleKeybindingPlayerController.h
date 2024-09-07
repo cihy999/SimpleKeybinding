@@ -1,9 +1,11 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright (C) 2024 Cindy Chen. All Rights Reserved.
 
 #pragma once
 
+// UE
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+// 
 #include "SimpleKeybindingPlayerController.generated.h"
 
 class UInputMappingContext;
@@ -17,15 +19,12 @@ class SIMPLEKEYBINDING_API ASimpleKeybindingPlayerController : public APlayerCon
 	GENERATED_BODY()
 	
 protected:
-
 	/** Input Mapping Context to be used for player input */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputMappingContext* InputMappingContext;
-
-	// Begin Actor interface
+	
 protected:
-
+	// ~Begin Actor interface
 	virtual void BeginPlay() override;
-
-	// End Actor interface
+	// ~End Actor interface
 };
