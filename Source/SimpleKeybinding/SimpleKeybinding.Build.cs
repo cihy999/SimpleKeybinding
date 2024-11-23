@@ -15,7 +15,10 @@ public class SimpleKeybinding : ModuleRules
 			"Engine", 
 			"InputCore", 
 			"EnhancedInput",
-			"UMG"
-		});
+			"UMG",
+            "GameplayTags",
+			"CommonUI",
+			"CommonInput",
+        });
 	}
 }
