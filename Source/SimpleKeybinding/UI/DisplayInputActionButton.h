@@ -7,7 +7,7 @@
 // CommonUI
 #include "CommonButtonBase.h"
 //
-#include "Widget/IDisplayInputActionInterface.h"
+#include "UI/IDisplayInputActionInterface.h"
 // 
 #include "DisplayInputActionButton.generated.h"
 

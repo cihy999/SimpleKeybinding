@@ -1,13 +1,13 @@
 // Copyright (C) 2024 Cindy Chen. All Rights Reserved.
 
 // Self
-#include "Widget/DisplayInputActionBar.h"
+#include "UI/DisplayInputActionBar.h"
 // UE
 #include "Editor/WidgetCompilerLog.h"
 // CommonUI
 #include "CommonButtonBase.h"
 //
-#include "Widget/IDisplayInputActionInterface.h"
+#include "UI/IDisplayInputActionInterface.h"
 
 void UDisplayInputActionBar::OnWidgetRebuilt()
 {
