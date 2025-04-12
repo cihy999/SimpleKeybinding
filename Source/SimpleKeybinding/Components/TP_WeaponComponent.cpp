@@ -1,9 +1,9 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 
-#include "TP_WeaponComponent.h"
-#include "SimpleKeybindingCharacter.h"
-#include "SimpleKeybindingProjectile.h"
+#include "Components/TP_WeaponComponent.h"
+#include "Characters/SimpleKeybindingCharacter.h"
+#include "Characters/SimpleKeybindingProjectile.h"
 #include "GameFramework/PlayerController.h"
 #include "Camera/PlayerCameraManager.h"
 #include "Kismet/GameplayStatics.h"

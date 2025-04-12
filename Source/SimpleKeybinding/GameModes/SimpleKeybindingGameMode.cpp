@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "GameModes/SimpleKeybindingGameMode.h"
-#include "SimpleKeybindingCharacter.h"
+#include "Characters/SimpleKeybindingCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 ASimpleKeybindingGameMode::ASimpleKeybindingGameMode()

@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "SimpleKeybindingCharacter.h"
-#include "SimpleKeybindingProjectile.h"
+#include "Characters/SimpleKeybindingCharacter.h"
+#include "Characters/SimpleKeybindingProjectile.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"

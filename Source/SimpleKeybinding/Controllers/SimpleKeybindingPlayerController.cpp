@@ -1,7 +1,7 @@
 // Copyright(C) 2024 Cindy Chen.All Rights Reserved.
 
 // Self
-#include "SimpleKeybindingPlayerController.h"
+#include "Controllers/SimpleKeybindingPlayerController.h"
 // UE
 #include "EnhancedInputSubsystems.h"
 #include "Engine/LocalPlayer.h"
