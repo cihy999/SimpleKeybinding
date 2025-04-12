@@ -8,7 +8,17 @@ public class SimpleKeybinding : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] 
+        PublicIncludePaths.AddRange(new string[] 
+		{
+            "SimpleKeybinding"
+        });
+
+        PrivateIncludePaths.AddRange(new string[] 
+		{
+			
+		});
+
+        PublicDependencyModuleNames.AddRange(new string[] 
 		{ 
 			"Core", 
 			"CoreUObject", 
